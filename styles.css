@@ -66,28 +66,34 @@ html {
 }
 
 #paragraph {
-    margin: 20px 250px;
+    margin: auto 100px;
+    text-align: center;
+    color: var(--quaternary-color)
 }
 
-h1 {
-    padding: 10px;
+.content h5 {
+    padding: 15px;
     color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
 }
 
-h3 {
+.content h3 {
     color: var(--secondary-color);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.trait {
+    padding: 3px;
+    width: 60%;
+    margin: auto;
+
 }
 
 .title h5 {
     color: var(--secondary-color);
 }
 
-h2 {
-    color: var(--secondary-color);
-    font-family:bold;
-    
-}
 
 .title {
     display: flex;
@@ -107,6 +113,7 @@ h2 {
     border: 1px solid lightgray;
     margin: 2px;
 
+
 }
 
 .border-bottom {
@@ -115,21 +122,28 @@ h2 {
 }
 
 .border-top1 {
-    border: 1px solid lightgray;
-    margin: 2px;
     width: 100px;
 
 }
 
 .border-bottom1 {
-    border: 1px solid lightgray;
-    margin: 2px;
     width: 100px;
 
 }
 
+.border-top2 {
+    width: 700px;
+    margin: 5px auto;
+    padding: 2px;
+}
 
-.content .cards .card {
+.border-bottom2 {
+    width: 700px;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+.cards .card {
 
     padding: 2.4rem 1.5rem;
     width: 30%;
@@ -152,24 +166,25 @@ h2 {
 }
 
 .cards .card.dark p {
-
+    padding-top: 10px;
     color: #ffffff;
     font-size: 12px;
 }
 
 .cards .card p {
-
+    padding-top: 10px;
     color: var(--quaternary-color);
     font-size: 12px;
 }
 
 .dark .border {
-    border: 5px solid var(--tertiary-color);
+    border: 10px solid var(--tertiary-color);
+    margin: auto 60px;
 }
 
 .card .border-card {
-    border: 3px solid var(--quaternary-color);
-    margin: auto 0;
+    border: 2px solid var(--quaternary-color);
+    margin: auto 60px;
 
 }
 
@@ -214,7 +229,7 @@ h2 {
 
 .newsletter {
     margin-top: 10px;
-    width: 350px;
+    width: 25%;
 }
 
 input {
@@ -227,21 +242,26 @@ input {
 }
 
 .btn-warning {
-    font-size: 18px;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 5px;
 }
 
 #contact {
     margin-top: 10px;
-    width: 800px;
+    width: 70%;
 }
 
 .icon-details {
     display: flex;
     justify-content: flex-start;
-    gap:5px;
+    align-items: center;
+    gap: 10px;
 
 
 }
+
+
 
 .newsletter p {
     margin-top: 10px;
@@ -255,8 +275,7 @@ input {
 
 .footer h3,
 p {
-    color: rgb(170, 167, 167);
-
+    color: var(--tertiary-color)
 }
 
 
